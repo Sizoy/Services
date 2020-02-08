@@ -1,0 +1,61 @@
+/*width 1100 px
+height 290px
+div width 230px
+div height 185 px */
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('ProximaNova-Regular.eot');
+    src: url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-Regular.woff') format('woff'),
+    url('ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+font-family: 'Proxima Nova Light';
+src: url('ProximaNova-Light.eot');
+src: url('ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+url('ProximaNova-Light.woff') format('woff'),
+url('ProximaNova-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+.main-block {
+    display: inline-block;
+    width: 21vw;
+    height: 64vh;
+    margin: 16vh 5vw 16vh 5vw;
+    text-align: center;
+}
+.icon {
+        
+        background-color: #2a69a6;;
+        height: 27%;
+        width: 40%;
+        margin: 0 auto 0 auto;
+        border: 2px solid #2a69a6;
+        border-radius: 50%;
+}
+svg {
+    margin-top: 35%;
+}
+.icon:hover {
+    transition-duration: 0.5s;
+    background-color: white;
+}
+.icon:hover path {
+    transition-duration: 0.5s;
+    fill: #2a69a6;
+}
+.title {
+    margin-top: 15%;
+    font-family: "Proxima Nova Regular";
+    font-size: 20px;
+}
+.text {
+    margin-top: 15%;
+    font-family: "Proxima Nova Light";
+    font-size: 20px;
+}
+
+
